@@ -10,3 +10,4 @@ apt install tmux htop neovim ranger tree sxic moc screenfetch git ffmpeg mutt pa
 # Set important alias
 echo "alias p='cd /media/removable/STORAGE/Projects'" >> ~/.bashrc
 echo "alias vim='nvim'" >> ~/.bashrc
+echo "alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'" >> ~/.bashrc

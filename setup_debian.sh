@@ -7,13 +7,16 @@ apt upgrade
 # Install most commonly used programs
 apt install tmux htop neovim ranger tree sxic moc screenfetch git ffmpeg mutt pass python3 python3-pip
 
-# Set important alias
+# Set important alias in ~/.bashrc
 echo "alias p='cd /media/removable/STORAGE/Projects'" >> ~/.bashrc
 echo "alias vim='nvim'" >> ~/.bashrc
 echo "alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'" >> ~/.bashrc
 echo "alias python='python3'" >> ~/.bashrc
 echo "alias pip='python3 -m pip'" >> ~/.bashrc
 echo "alias p='cd ~/projects'" >> ~/.bashrc
+
+# Set tmux preferences in ~/.tmux.conf
+echo "prefix : set -g mouse off" >> ~/.tmux.conf
 
 # Install python packages
 pip install castero

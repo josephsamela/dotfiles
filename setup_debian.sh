@@ -17,6 +17,7 @@ echo "alias p='cd ~/projects'" >> ~/.bashrc
 
 # Set tmux preferences in ~/.tmux.conf
 echo "prefix : set -g mouse off" >> ~/.tmux.conf
+echo "set -sg escape-time 0" >> ~/.tmux.conf
 
 # Install python packages
 pip install castero

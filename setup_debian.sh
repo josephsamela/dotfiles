@@ -8,7 +8,7 @@ apt upgrade
 apt install tmux htop neovim ranger tree sxic moc screenfetch git ffmpeg mutt pass python3 python3-pip
 
 # Set important alias in ~/.bashrc
-echo "alias p='cd /media/removable/STORAGE/Projects'" >> ~/.bashrc
+echo "alias p='cd ~/projects'" >> ~/.bashrc
 echo "alias vim='nvim'" >> ~/.bashrc
 echo "alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'" >> ~/.bashrc
 echo "alias python='python3'" >> ~/.bashrc

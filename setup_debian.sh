@@ -19,6 +19,9 @@ echo "alias p='cd ~/projects'" >> ~/.bashrc
 echo "prefix : set -g mouse off" >> ~/.tmux.conf
 echo "set -sg escape-time 0" >> ~/.tmux.conf
 
+# neovim preferences to ~/.config
+cp -R nvim/ ~/.config
+
 # Install python packages
 pip install castero
 

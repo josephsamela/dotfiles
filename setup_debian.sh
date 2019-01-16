@@ -14,6 +14,7 @@ echo "alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.ran
 echo "alias python='python3'" >> ~/.bashrc
 echo "alias pip='python3 -m pip'" >> ~/.bashrc
 echo "alias p='cd ~/projects'" >> ~/.bashrc
+echo "alias weather='curl wttr.in'" >> ~/.bashrc
 
 # Set tmux preferences in ~/.tmux.conf
 echo "prefix : set -g mouse off" >> ~/.tmux.conf

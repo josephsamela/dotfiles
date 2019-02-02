@@ -15,6 +15,9 @@ echo "alias python='python3'" >> ~/.bashrc
 echo "alias pip='python3 -m pip'" >> ~/.bashrc
 echo "alias p='cd ~/projects'" >> ~/.bashrc
 echo "alias weather='curl wttr.in'" >> ~/.bashrc
+echo "alias vrc='vim ~/.config/nvim/init.vim'" >> ~/.bashrc
+echo "alias brc='vim ~/.bashrc'" >> ~/.bashrc
+echo "alias trc='vim ~/.tmux.conf'" >> ~/.bashrc
 
 # Set tmux preferences in ~/.tmux.conf
 echo "prefix : set -g mouse off" >> ~/.tmux.conf

@@ -1,11 +1,18 @@
 # Joe Samela's setup script for debian, ubuntu, elementary, raspbian, etc. 
 
+# Reminder to run this as root!
+if [ ! "`whoami`" = "root" ]
+then
+    echo "\nPlease run script as root."
+    exit 1
+fi
+
 # Update packages
 apt update
 apt upgrade
 
 # Install most commonly used programs
-apt install tmux htop neovim ranger tree sxic moc screenfetch git ffmpeg mutt pass python3 python3-pip
+apt install tmux htop neovim ranger tree moc neofetch git ffmpeg python3 python3-pip
 
 # Set important alias in ~/.bashrc
 echo "alias p='cd ~/projects'" >> ~/.bashrc

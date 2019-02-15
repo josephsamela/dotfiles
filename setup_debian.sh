@@ -25,6 +25,8 @@ echo "alias weather='curl wttr.in'" >> ~/.bashrc
 echo "alias vrc='vim ~/.config/nvim/init.vim'" >> ~/.bashrc
 echo "alias brc='vim ~/.bashrc'" >> ~/.bashrc
 echo "alias trc='vim ~/.tmux.conf'" >> ~/.bashrc
+echo "alias ll='ls -l'" >> ~/.bashrc
+echo "alias la='ls -a'" >> ~/.bashrc
 
 # Set tmux preferences in ~/.tmux.conf
 echo "prefix : set -g mouse off" >> ~/.tmux.conf

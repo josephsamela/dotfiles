@@ -15,13 +15,13 @@ apt upgrade
 apt install tmux htop neovim ranger tree moc neofetch git ffmpeg python3 python3-pip unzip
 
 # Set bashrc config
-cp bashrc ~/.bashrc
+echo bashrc >> ~/.bashrc
 
 # Set mocp config
 cp -R moc ~/.moc
 
 # Set tmux preferences in ~/.tmux.conf
-cp tmux.conf ~/.tmux.conf
+echo tmux.conf >> ~/.tmux.conf
 
 # neovim preferences to ~/.config
 cp -R nvim/ ~/.config

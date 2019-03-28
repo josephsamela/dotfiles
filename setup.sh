@@ -7,13 +7,6 @@ then
     exit 1
 fi
 
-# Update packages
-apt update
-apt upgrade
-
-# Install most commonly used programs
-apt install tmux htop neovim ranger tree moc neofetch git ffmpeg python3 python3-pip unzip
-
 # Set bashrc config
 echo bashrc >> ~/.bashrc
 
@@ -26,9 +19,8 @@ echo tmux.conf >> ~/.tmux.conf
 # neovim preferences to ~/.config
 cp -R nvim/ ~/.config
 
-# Install python packages
-pip install castero
-
 # Create project folder
 mkdir ~/projects
 
+# Move utils to home folder
+cp -R utils ~/.utils

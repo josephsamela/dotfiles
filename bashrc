@@ -9,3 +9,4 @@ alias brc='vim ~/.bashrc'
 alias trc='vim ~/.tmux.conf'
 alias mocp="mocp --theme nes"
 alias ll="ls -l"
+alias obsh="bash ~/.utils/obsh.sh"

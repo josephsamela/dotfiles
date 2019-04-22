@@ -14,7 +14,7 @@ cat bashrc >> ~/.bashrc
 cp -R moc ~/.moc
 
 # Set tmux preferences in ~/.tmux.conf
-cat tmux.conf >> ~/.tmux.conf
+cp tmux.conf ~/.tmux.conf
 
 # neovim preferences to ~/.config
 cp -R nvim/ ~/.config

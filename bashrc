@@ -6,6 +6,7 @@ alias pip='python3 -m pip'
 alias weather='curl wttr.in'
 alias vrc='vim ~/.config/nvim/init.vim'
 alias brc='vim ~/.bashrc'
+alias zrc='vim ~/.zshrc.conf'
 alias trc='vim ~/.tmux.conf'
 alias mocp="mocp --theme nes"
 alias ll="ls -l"

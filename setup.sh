@@ -9,6 +9,7 @@ fi
 
 # Set bashrc config
 cat bashrc >> ~/.bashrc
+cat bashrc >> ~/.zshrc
 
 # Set mocp config
 cp -R moc ~/.moc

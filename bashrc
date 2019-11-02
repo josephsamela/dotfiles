@@ -1,3 +1,5 @@
+
+
 alias p='cd ~/projects'
 alias vim='nvim'
 alias ranger='ranger --choosedir=/home/josephsamela/.rangerdir; LASTDIR=; cd '

@@ -11,3 +11,4 @@ function p { set-location "$HOME\projects" }
 function n { set-location "$HOME\notes" }
 
 function prc { vim $HOME\Documents\WindowsPowerShell\profile.ps1 }
+function vrc { vim $HOME\AppData\Local\nvim\init.vim }

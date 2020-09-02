@@ -3,7 +3,7 @@
 
 cd $HOME
 
-Set-Alias -Name vim -Value $HOME\Documents\WindowsPowerShell\nvim-win64\Neovim\bin\nvim.exe
+Set-Alias -Name vim -Value nvim
 Set-Alias -Name nvim -Value $HOME\Documents\WindowsPowerShell\nvim-win64\Neovim\bin\nvim.exe
 Set-Alias grep findstr
 
@@ -13,3 +13,5 @@ function n { set-location "$HOME\notes" }
 
 function prc { vim $HOME\Documents\WindowsPowerShell\profile.ps1 }
 function vrc { vim $HOME\AppData\Local\nvim\init.vim }
+
+function tree {tree /F}

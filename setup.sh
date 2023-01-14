@@ -18,7 +18,7 @@ cp -R moc ~/.moc
 cp tmux.conf ~/.tmux.conf
 
 # neovim preferences to ~/.config
-cp -R nvim/ ~/.config
+cp -r nvim/ ~/.config
 
 # Create project folder
 mkdir ~/projects

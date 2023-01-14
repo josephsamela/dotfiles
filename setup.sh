@@ -25,3 +25,7 @@ mkdir ~/projects
 
 # Move utils to home folder
 cp -R utils ~/.utils
+
+# Prevent those lengthy login messages
+touch ~/.hushlogin
+

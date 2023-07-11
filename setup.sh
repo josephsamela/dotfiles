@@ -18,10 +18,11 @@ cp -R moc ~/.moc
 cp tmux.conf ~/.tmux.conf
 
 # neovim preferences to ~/.config
-cp -R nvim/ ~/.config
+cp -r nvim/ ~/.config
 
 # Move utils to home folder
 cp -R utils ~/.utils
 
 # Silence ssh login headers
 touch ~/.hushlogin
+

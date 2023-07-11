@@ -13,3 +13,5 @@ alias trc='vim ~/.tmux.conf'
 alias mocp="mocp --theme nes"
 alias ll="ls -lh"
 alias obsh="bash ~/.utils/obsh.sh"
+alias dps="docker ps --format \"table {{ .ID }}\t{{.Names}}\t{{.Image}}\t{{.Status}}\""
+

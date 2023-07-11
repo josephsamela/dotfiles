@@ -9,7 +9,9 @@ set number
 " Prevent text wrapping
 set nowrap
 
-" Use ayu theme from https://github.com/ayu-theme/ayu-vim
-set termguicolors     " enable true colors support
-let ayucolor="dark"   " for dark version of theme
-colorscheme ayu       " enable ayu colorscheme
+" Turn on syntax highlighting
+syntax on
+
+set background=dark
+colorscheme onedark
+

@@ -9,7 +9,7 @@ fi
 
 # Set bashrc config
 cat bashrc >> ~/.bashrc
-cat bashrc >> ~/.zshrc
+cat zshrc >> ~/.zshrc
 
 # Set mocp config
 cp -R moc ~/.moc
@@ -20,8 +20,8 @@ cp tmux.conf ~/.tmux.conf
 # neovim preferences to ~/.config
 cp -R nvim/ ~/.config
 
-# Create project folder
-mkdir ~/projects
-
 # Move utils to home folder
 cp -R utils ~/.utils
+
+# Silence ssh login headers
+touch ~/.hushlogin
